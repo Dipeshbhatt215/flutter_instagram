@@ -194,7 +194,7 @@ class _FeedWidgetState extends State<FeedWidget> {
               onPressed: () {
                 showDialog(
                     context: context,
-                    child: Dialog(
+                    builder: (context) => Dialog(
                       child: ListView(
                           padding: EdgeInsets.symmetric(vertical: 16),
                           shrinkWrap: true,

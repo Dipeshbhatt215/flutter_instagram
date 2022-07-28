@@ -60,7 +60,7 @@ class _ProfileHeaderInfoWidgetState extends State<ProfileHeaderInfoWidget> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
-                  child: OutlineButton(
+                  child: RaisedButton(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(4))),
                     onPressed: () {},
@@ -72,7 +72,7 @@ class _ProfileHeaderInfoWidgetState extends State<ProfileHeaderInfoWidget> {
                 ),
                 SizedBox(width: 12),
                 Expanded(
-                  child: OutlineButton(
+                  child: RaisedButton(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(4))),
                     onPressed: () {},
